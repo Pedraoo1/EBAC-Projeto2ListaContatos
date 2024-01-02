@@ -27,4 +27,8 @@ function adicionar() {
 
         nomes.push(nomeMaiusculo);
     }
+
+    document.querySelector(".nome").value = "";
+    document.querySelector(".DDD").value = "";
+    document.querySelector(".tel").value = "";
 }
