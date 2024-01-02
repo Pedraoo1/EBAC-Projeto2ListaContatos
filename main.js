@@ -26,9 +26,9 @@ function adicionar() {
         tabela.classList.remove("naoMostra");
 
         nomes.push(nomeMaiusculo);
-    }
 
-    document.querySelector(".nome").value = "";
-    document.querySelector(".DDD").value = "";
-    document.querySelector(".tel").value = "";
+        document.querySelector(".nome").value = "";
+        document.querySelector(".DDD").value = "";
+        document.querySelector(".tel").value = "";
+    }
 }
